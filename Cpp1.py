@@ -1,7 +1,7 @@
 class Greeting :
     
-    g=input("Please enter your name :")
-    var= ("Hello " + g + "!")
+    name=input("Please enter your name :")
+    var= ("Hello " + name + "!")
 
 obj1= Greeting()
 print(obj1.var)
